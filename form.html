@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Primeira aula de form </title>
+    <H1>Teste de tags </H1>
+    <h2><br>Formulario </h2>
+    <hr>
+    <form action="/action_page.php"method="get" enctype="multipart/form-data">
+     <p><label for="noma">
+        Primeiro nome: <br>
+<input type="text" name="pnome" size="30" placeholder="digite o seu primeiro nome ">
+        </label>
+    </p>
+    <br>
+    <label for="">
+        Sobrenome <br>
+        <input type="text" name="Snome" maxlength="150" size="50 " placeholder="Digite o seu sobrenome ">
+    </label>
+    <br>
+    <fieldset>
+        <legend>sexo</legend>
+        <label for="">
+            Selecione algo correspondente<br>
+            <input type="radio" name="sexo" value="F">Feminino<br>
+            <input type="radio" name="sexo" value="M">Masculino
+        </label>
+    </fieldset><br>
+<label for="">
+    Senha: <br>
+    <input type="password" name="Senha"maxlength="10">
+</label><br>
+<input type="submit" value="">Enviar
+    </form>
+</body>
+</html>
