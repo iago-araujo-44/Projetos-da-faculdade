@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <title><b>dAgendamento de Atividae-Disney World</b></title><br>
+    <H1><b>Agendamento de Atividae-Disney World</b></H1>
+    <form action="post">
+        <label for="">
+            Resort:
+            <input type="text" name="Rname" readonly value="Disney World Orlando ">
+        </label><br>
+        <label for="">
+            Senha:
+            <input type="password">
+        </label><br>
+        <label for="">
+            Preenchimento:
+            <progress value="1" max="5">1/5</progress>
+            <hr>
+        </label>
+        <label for="">
+            Nome do responsavel:
+            <input type="text" name="RSnome" placeholder="Informe o nome completo" >
+        </label><br>
+        <label for="">
+            Numero de crianças:
+            <input type="number" name="Ncrianças" >
+        </label><br>
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="">
+                <input type="radio" name="sexoM" >Masculino
+                <input type="radio" name="sexoF" >Feminino <br>
+        </label>
+        </fieldset><br>
+        <label for="">
+            E-mal:
+            <input type="email" name="email" >
+        </label><br>
+        <label>
+            <input type="checkbox">Deseja receber email ?:
+        </label>
+        <hr>
+        <H2><b>Acesso ao Parque</b></H2><br>
+        <label for="">
+            Data da visita:
+            <input type="date" name="data">
+            Hora da Entrada:
+            <input type="time" name="hora">
+        </label><br>
+        <label for="">
+            Cor da pulseira:
+            <input type="color" name="" id="cor" value="#FF0000">
+        </label><br>
+        <label for="">
+            Numero de atrações a visitar:
+            <input type="range" value="10" min="1" max="10" step="5">
+        </label><br>
+        <label for="">
+            Foto de Familia:
+            <input type="file" name="Foto">
+        </label>
+        <H2><b>Preferencia de comida</b></H2>
+       <textarea name="Comida favorita" id="" rows="3" cols="20"></textarea>
+       <hr>
+       <h2><b>Você concorda com os termos</b></h2>
+       <label for="">
+        Sim:
+        <select name="S/n" id="">
+        <option value="s"> Sim</option>
+        <option value="n">Não</option>
+    </select><br>
+       <label for="">
+        Enviar:
+        <input type="submit" value="Enviar">
+       </label>
+    </form>
+</body>
+</html>
