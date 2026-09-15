@@ -1,0 +1,62 @@
+header{
+    background-color: burlywood; text-align: center; color: brown; padding: 10px;
+}
+h1{
+    font-size: 60px;
+}
+.subtitulo{
+    font-size: 50px;
+}
+main{
+    background-color: bisque;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.caixa{
+    background-color: coral;
+    width: 300px;
+    flex:1 1 250px;
+    cursor: pointer;
+    max-width: 400px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    box-shadow: 0 4px 8px rgba(0,0,0,15);
+    transition: 0.3s ease, border-color 0,3s ease , box-shadow 0.3s ease;}
+    /*Efeito houver ao passar o mause*/
+.caixa:hover{
+border-color: brown;
+transform:scale(1.05) ;
+box-shadow:0 8px 20px rgba(0,0,0.0.3);
+/*Ele sobrepõe a borda */z-index: 1;
+}
+.caixa h3{
+    color: aliceblue;
+    font-size: 40px;
+    padding: 0 20px;
+}
+footer{
+    background-color: brown;
+    padding: 50px;
+}
+footer p{
+    color:burlywood;
+    text-align: center;
+    font-size: 20px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
