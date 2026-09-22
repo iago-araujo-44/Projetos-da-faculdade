@@ -1,0 +1,13 @@
+h1{background-color: rgb(30, 163, 48); text-align: center; color:white ;
+border-radius: 20px; width: 444px;}
+body{
+    background-color: rgb(207, 237, 100);
+}
+.titulo1:hover{
+    transform:scale(1.05);
+     z-index: index 1;  
+}
+.inte-1:hover{
+    transform:scale(1.05);
+    z-index: 1;
+}
